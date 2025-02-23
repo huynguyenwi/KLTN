@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qxaBMvsNaTGbCQfs5VRby60t5h5yJmDw8D6MOcACcqo=",
+  "Hash": "VEE9AK4DYTl5GcLpcXcSjdrFMwZKQmHSgdb4lgbc9QU=",
   "Source": "Shopping",
   "BasePath": "_content/Shopping",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Shopping\\Shopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Shopping.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Shopping\\Shopping\\wwwroot\\backend\\js\\site.js",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "backend/js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\backend\\js\\site.js"
     },
     {
       "Identity": "D:\\Shopping\\Shopping\\wwwroot\\css\\animate.css",
@@ -1575,25 +1594,6 @@
       "OriginalItemSpec": "wwwroot\\media\\products\\0da9876e-9db2-4729-aaba-9cfaa9c27c63_2.jpg"
     },
     {
-      "Identity": "D:\\Shopping\\Shopping\\wwwroot\\media\\products\\452de63b-28d3-4b4d-b1fc-853ac60294c2_2.jpg",
-      "SourceId": "Shopping",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Shopping\\Shopping\\wwwroot\\",
-      "BasePath": "_content/Shopping",
-      "RelativePath": "media/products/452de63b-28d3-4b4d-b1fc-853ac60294c2_2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\media\\products\\452de63b-28d3-4b4d-b1fc-853ac60294c2_2.jpg"
-    },
-    {
       "Identity": "D:\\Shopping\\Shopping\\wwwroot\\media\\products\\769c9a91-88b9-4c34-9886-84f2fa50f9bf_1.jpg",
       "SourceId": "Shopping",
       "SourceType": "Discovered",
@@ -1611,6 +1611,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\products\\769c9a91-88b9-4c34-9886-84f2fa50f9bf_1.jpg"
+    },
+    {
+      "Identity": "D:\\Shopping\\Shopping\\wwwroot\\media\\products\\8dde1ffc-fb14-482e-9691-e7df0094bae9_3.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "media/products/8dde1ffc-fb14-482e-9691-e7df0094bae9_3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\8dde1ffc-fb14-482e-9691-e7df0094bae9_3.jpg"
     },
     {
       "Identity": "D:\\Shopping\\Shopping\\wwwroot\\media\\products\\cf2b588d-fcf3-4dc2-88fa-4a8cff609520_2.jpg",
