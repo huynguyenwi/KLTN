@@ -8,6 +8,7 @@ using Shopping.Repository;
 namespace Shopping.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
 
     public class ProductController : Controller
     {
