@@ -8,7 +8,7 @@ using Shopping.Repository;
 namespace Shopping.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
 
     public class ProductController : Controller
     {
@@ -20,11 +20,40 @@ namespace Shopping.Areas.Admin.Controllers
             _dataContext = context;
             _webHostEnvironment = webHostEnvironment;
         }
-        public async Task<IActionResult> Index()
+        /*public async Task<IActionResult> Index()
         {
             return View(await _dataContext.Products.OrderByDescending(p=>p.Id).Include(p=>p.Category).Include(p => p.Brand).ToListAsync());
         }
- 
+ */
+        public async Task<IActionResult> Index(int pg = 1)
+        {
+            const int pageSize = 10; // 10 sản phẩm trên mỗi trang
+
+            if (pg < 1)
+            {
+                pg = 1;
+            }
+
+            // Đếm tổng số sản phẩm trong database
+            int recsCount = await _dataContext.Products.CountAsync();
+
+            // Tạo đối tượng phân trang
+            var pager = new Paginate(recsCount, pg, pageSize);
+            int recSkip = (pg - 1) * pageSize;
+
+            // Lấy danh sách sản phẩm theo trang, sắp xếp giảm dần theo ID
+            var products = await _dataContext.Products
+                .OrderByDescending(p => p.Id)
+                .Include(p => p.Category)
+                .Include(p => p.Brand)
+                .Skip(recSkip)
+                .Take(pager.PageSize)
+                .ToListAsync();
+
+            ViewBag.Pager = pager;
+            return View(products);
+        }
+
         public IActionResult Create()
         {
             ViewBag.Categories = new SelectList(_dataContext.Categories, "Id", "Name");
@@ -88,7 +117,7 @@ namespace Shopping.Areas.Admin.Controllers
         }
 
        
-        public async Task<IActionResult> Edit(int Id)
+        public async Task<IActionResult> Edit(long Id)
         {
             ProductModel product = await _dataContext.Products.FindAsync(Id);
             /*ProductModel product = await _dataContext.Products.FirstOrDefaultAsync(p => p.Id == Id);
@@ -243,7 +272,7 @@ namespace Shopping.Areas.Admin.Controllers
 
 
 
-        public async Task<IActionResult> Delete(int Id)
+        public async Task<IActionResult> Delete(long Id)
         {
             ProductModel product = await _dataContext.Products.FindAsync(Id);
             //ProductModel product = await _dataContext.Products.FirstOrDefaultAsync(p => p.Id == Id);

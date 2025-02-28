@@ -1,5 +1,6 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Shopping.Areas.Admin.Repository;
 using Shopping.Models;
 using Shopping.Repository;
 
@@ -11,7 +12,8 @@ builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(builder.Configuration["ConnectionStrings:ConnectedDb"]);
 });
 
-
+//Add Email Sender
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -55,9 +57,10 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
-
+//đăng nhập
 app.UseAuthentication();
-app.UseAuthorization();
+//kiểm tra quyền
+app.UseAuthorization(); 
 
 app.MapControllerRoute(
     name: "Areas",

@@ -27,7 +27,7 @@ namespace Shopping.Controllers
 		{
 			return View("~/Views/Checkout/Index.cshtml");
 		}
-		public async Task<IActionResult> Add(int Id)
+		public async Task<IActionResult> Add(long Id)
 		{
 			ProductModel product = await _dataContext.Products.FindAsync(Id);
 			List<CartItemModel> cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
