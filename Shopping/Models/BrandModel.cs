@@ -12,6 +12,6 @@ namespace Shopping.Models
 		[Required(ErrorMessage = "Yêu cầu nhập Mô tả Thương Hiệu")]
 		public string Description { get; set; }
 		public string Slug { get; set; }
-		public int Status { get; set; }
+		public int? Status { get; set; }
 	}
 }

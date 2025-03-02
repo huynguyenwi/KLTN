@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<ProductModel>
 
+<partial name="_SliderPartial" />
 <div class="col-sm-3">
    @Html.Partial("_SidebarPartial")
 </div>
@@ -25,13 +26,14 @@
                         <div class="productinfo text-center">
                             <a asp-action="Details" asp-controller="Product" asp-route-Id="@item.Id">
                                 <img src="~/media/products/@item.Image" alt="@item.Name" width="100%" height="300px"/>
-                                <h2>$@item.Price</h2>
+                                <h2>@item.Price.ToString("#,##0 VNĐ")</h2>
                                 <p>@item.Name</p>
                                 <p>Danh mục : @item.Category.Name</p>
                                 <p>Thương hiệu : @item.Brand.Name</p>
                             </a>
 
-                                <a class="btn btn-default add-to-cart" asp-action="Add" asp-controller="Cart" asp-route-Id="@item.Id"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                <a class="btn btn-default add-to-cart" asp-action="Add" asp-controller="Cart" asp-route-Id="@item.Id"><i class="fa fa-shopping-cart"></i>Add to cart</a> 
+                             @* <button class="btn btn-default add-to-cart" data_product_id="@item.Id"><i class="fa fa-shopping-cart"></i>Thêm giỏ hàng</button>  *@
                         </div>
                        @*  <div class="product-overlay">
                             <div class="overlay-content">
@@ -60,3 +62,27 @@
   
 
 </div>
+
+@* @section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('.add-to-cart').click(function () {
+                var Id = $(this).data("product_id");
+
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("Add","Cart")",
+                    data: { Id:Id }, //send data to the server
+
+                    success: function (result) {
+                        if (result.success) {
+                            Swal.fire("Thêm giỏ hàng thành công.");
+                        } else {
+                            Swal.fire("Thêm giỏ hàng thất bại." + result.message);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+} *@

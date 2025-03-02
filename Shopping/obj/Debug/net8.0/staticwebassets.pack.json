@@ -317,14 +317,6 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Shopping\\Shopping\\wwwroot\\media\\products\\01b0ef13-6c13-4858-816f-6349b1f54451_1.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\01b0ef13-6c13-4858-816f-6349b1f54451_1.jpg"
-    },
-    {
-      "Id": "D:\\Shopping\\Shopping\\wwwroot\\media\\products\\062978d1-9e39-4ebe-87a7-9cf818ba4b39_3.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\062978d1-9e39-4ebe-87a7-9cf818ba4b39_3.jpg"
-    },
-    {
       "Id": "D:\\Shopping\\Shopping\\wwwroot\\media\\products\\0da9876e-9db2-4729-aaba-9cfaa9c27c63_2.jpg",
       "PackagePath": "staticwebassets\\media\\products\\0da9876e-9db2-4729-aaba-9cfaa9c27c63_2.jpg"
     },
@@ -343,10 +335,6 @@
     {
       "Id": "D:\\Shopping\\Shopping\\wwwroot\\media\\products\\767bbd1e-1fe7-4131-9e7a-4f18ff86124f_2.jpg",
       "PackagePath": "staticwebassets\\media\\products\\767bbd1e-1fe7-4131-9e7a-4f18ff86124f_2.jpg"
-    },
-    {
-      "Id": "D:\\Shopping\\Shopping\\wwwroot\\media\\products\\769c9a91-88b9-4c34-9886-84f2fa50f9bf_1.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\769c9a91-88b9-4c34-9886-84f2fa50f9bf_1.jpg"
     },
     {
       "Id": "D:\\Shopping\\Shopping\\wwwroot\\media\\products\\873b86fa-b33c-4f49-8712-25dacbbbd489_3.jpg",

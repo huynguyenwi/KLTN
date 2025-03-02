@@ -10,7 +10,9 @@
 	@* <link href="~/css/font-awesome.min.css" rel="stylesheet"> *@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.min.css" rel="stylesheet">
-
+	
+	<link href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css" rel="stylesheet">
+	
 	<link href="~/css/prettyPhoto.css" rel="stylesheet">
 	<link href="~/css/price-range.css" rel="stylesheet">
 	<link href="~/css/animate.css" rel="stylesheet">
@@ -75,8 +77,7 @@
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
 								<li><a asp-controller="Home" class="active">Home</a></li>
-								
-								
+								<li><a asp-controller="Slider">Slider</a></li>
 								<li><a asp-controller="Product">Products</a></li>
 								<li><a asp-controller="Category">Categories</a></li>
 								<li><a asp-controller="Brand">Brands</a></li>
@@ -117,6 +118,9 @@
 	<script src="~/js/jquery.scrollUp.min.js"></script>
 	<script src="~/js/price-range.js"></script>
 	<script src="~/js/jquery.prettyPhoto.js"></script>
+	
+	<script src="https://cdn.datatables.net/2.2.2/js/dataTables.min.js"></script>
+
 	<script src="~/js/main.js"></script>
 	<script src="~/backend/js/site.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.all.min.js"></script>
@@ -127,6 +131,12 @@
 				Swal.fire(message);
 		});
 	</script>
+	 
+	<script>
+		let table = new DataTable('#myTable');
+	</script>
+	
+
 	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
