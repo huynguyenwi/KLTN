@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Shopping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B6B0CDA-8B82-4536-9983-EE20121509C2}|Shopping\\Shopping.csproj|d:\\shopping\\shopping\\views\\shared\\_sliderpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4B6B0CDA-8B82-4536-9983-EE20121509C2}|Shopping\\Shopping.csproj|solutionrelative:shopping\\views\\shared\\_sliderpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4B6B0CDA-8B82-4536-9983-EE20121509C2}|Shopping\\Shopping.csproj|d:\\shopping\\shopping\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B6B0CDA-8B82-4536-9983-EE20121509C2}|Shopping\\Shopping.csproj|solutionrelative:shopping\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B6B0CDA-8B82-4536-9983-EE20121509C2}|Shopping\\Shopping.csproj|d:\\shopping\\shopping\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B6B0CDA-8B82-4536-9983-EE20121509C2}|Shopping\\Shopping.csproj|solutionrelative:shopping\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B6B0CDA-8B82-4536-9983-EE20121509C2}|Shopping\\Shopping.csproj|d:\\shopping\\shopping\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4B6B0CDA-8B82-4536-9983-EE20121509C2}|Shopping\\Shopping.csproj|solutionrelative:shopping\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B6B0CDA-8B82-4536-9983-EE20121509C2}|Shopping\\Shopping.csproj|d:\\shopping\\shopping\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4B6B0CDA-8B82-4536-9983-EE20121509C2}|Shopping\\Shopping.csproj|solutionrelative:shopping\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B6B0CDA-8B82-4536-9983-EE20121509C2}|Shopping\\Shopping.csproj|d:\\shopping\\shopping\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B6B0CDA-8B82-4536-9983-EE20121509C2}|Shopping\\Shopping.csproj|solutionrelative:shopping\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_SliderPartial.cshtml",
-              "DocumentMoniker": "D:\\Shopping\\Shopping\\Views\\Shared\\_SliderPartial.cshtml",
-              "RelativeDocumentMoniker": "Shopping\\Views\\Shared\\_SliderPartial.cshtml",
-              "ToolTip": "D:\\Shopping\\Shopping\\Views\\Shared\\_SliderPartial.cshtml",
-              "RelativeToolTip": "Shopping\\Views\\Shared\\_SliderPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-02T17:06:07.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Shopping\\Shopping\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Shopping\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Shopping\\Shopping\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Shopping\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAJwAAAAAAAAAAAAAAKsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-02T17:05:45.768Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Shopping\\Shopping\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Shopping\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Shopping\\Shopping\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Shopping\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAADwvxMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:30:51.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Shopping\\Shopping\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "RelativeDocumentMoniker": "Shopping\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "ToolTip": "D:\\Shopping\\Shopping\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "RelativeToolTip": "Shopping\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Shopping\\Shopping\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Shopping\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Shopping\\Shopping\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Shopping\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-02T17:03:32.718Z",
+              "WhenOpened": "2025-03-04T16:22:02.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "D:\\Shopping\\Shopping\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "Shopping\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ToolTip": "D:\\Shopping\\Shopping\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "Shopping\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T17:03:23.313Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Shopping\\Shopping\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shopping\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Shopping\\Shopping\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Shopping\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDUAAAB/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T16:21:12.645Z",
               "EditorCaption": ""
             }
           ]

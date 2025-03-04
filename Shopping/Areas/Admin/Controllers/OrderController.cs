@@ -94,7 +94,35 @@ namespace Shopping.Areas.Admin.Controllers
                    return StatusCode(500, new { success = false, message = "Lỗi khi xóa đơn hàng" });
                }
            }*/
-       
+
+        [HttpGet]
+        [Route("Delete")]
+        public async Task<IActionResult> Delete(string ordercode)
+        {
+            var order = await _dataContext.Orders.FirstOrDefaultAsync(o => o.OrderCode == ordercode);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+            try
+            {
+
+                //delete order
+                _dataContext.Orders.Remove(order);
+
+
+                await _dataContext.SaveChangesAsync();
+
+                return RedirectToAction("Index");
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(500, "An error occurred while deleting the order.");
+            }
+        }
+
 
 
 

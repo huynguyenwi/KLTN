@@ -1,0 +1,35 @@
+﻿@model ContactModel
+<div class="row">
+
+
+	<div class="col-sm-5 col-md-5">
+		@Html.Raw(@Model.Map)
+		@Html.Raw(Model.Description)
+	</div>
+	<div class="col-sm-4">
+		<div class="address">
+			<h5><b>Name : @Model.Name</b></h5>
+			<h5>Email : @Model.Email</h5>
+			<h5>@Model.Phone</h5>
+
+		</div>
+	</div>
+    <div class="col-md-4">
+        <div id="fb-root"></div>
+        <div class="fb-page"
+             data-href="https://www.facebook.com/profile.php?id=61565068238516"
+             data-tabs="timeline"
+             data-width="340"
+             data-height="500"
+             data-small-header="false"
+             data-adapt-container-width="true"
+             data-hide-cover="false"
+             data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/profile.php?id=61565068238516" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/profile.php?id=61565068238516">Nội Thất Huy Nguyễn</a>
+            </blockquote>
+        </div>
+    </div>
+
+
+</div>

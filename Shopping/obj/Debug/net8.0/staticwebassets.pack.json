@@ -317,6 +317,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\Shopping\\Shopping\\wwwroot\\media\\logo\\f88850c0-f3c5-4943-8165-5273ec958e34_480780380_1221938705959297_3745906321654702661_n.jpg",
+      "PackagePath": "staticwebassets\\media\\logo\\f88850c0-f3c5-4943-8165-5273ec958e34_480780380_1221938705959297_3745906321654702661_n.jpg"
+    },
+    {
       "Id": "D:\\Shopping\\Shopping\\wwwroot\\media\\products\\0da9876e-9db2-4729-aaba-9cfaa9c27c63_2.jpg",
       "PackagePath": "staticwebassets\\media\\products\\0da9876e-9db2-4729-aaba-9cfaa9c27c63_2.jpg"
     },
@@ -351,6 +355,18 @@
     {
       "Id": "D:\\Shopping\\Shopping\\wwwroot\\media\\products\\ec4165e9-c769-40ab-9d44-6cf95fd5d521_2.jpg",
       "PackagePath": "staticwebassets\\media\\products\\ec4165e9-c769-40ab-9d44-6cf95fd5d521_2.jpg"
+    },
+    {
+      "Id": "D:\\Shopping\\Shopping\\wwwroot\\media\\sliders\\5b367bc3-06a0-41fc-9fdc-52b5ea406fed_shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-vector.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\5b367bc3-06a0-41fc-9fdc-52b5ea406fed_shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-vector.jpg"
+    },
+    {
+      "Id": "D:\\Shopping\\Shopping\\wwwroot\\media\\sliders\\c7279945-ff75-4067-abeb-3e8425220229_480780380_1221938705959297_3745906321654702661_n.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\c7279945-ff75-4067-abeb-3e8425220229_480780380_1221938705959297_3745906321654702661_n.jpg"
+    },
+    {
+      "Id": "D:\\Shopping\\Shopping\\wwwroot\\media\\sliders\\e2f64626-0f06-41b0-ad60-2bebd3099d58_1.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\e2f64626-0f06-41b0-ad60-2bebd3099d58_1.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Shopping.Microsoft.AspNetCore.StaticWebAssets.props",

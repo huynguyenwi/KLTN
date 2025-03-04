@@ -15,7 +15,7 @@
     </head>
     <body>
         <h3>Order Details</h3>
-    <table class="table">
+    <table class="table" id="detail_order">
         <thead>
             <tr>
                 <th>#</th>
@@ -38,15 +38,19 @@
                     <td>@item.OrderCode</td>
                     <td>@item.UserName</td>
                     <td>@item.Product.Name</td>
-                    <td>@item.Price</td>
+                    <td>@item.Price.ToString("#, ##0 VNĐ")</td>
                     <td>@item.Quantity</td>
-                    <td>@subtotal.ToString("C")</td>
+                    <td>@subtotal.ToString("#, ##0 VNĐ")</td>
 
                 </tr>
             }
             <tr>
-                <th colspan="5">Total:</th>
-                <td>@total.ToString("C")</td>
+                <td>Total:</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>@total.ToString("#, ##0 VNĐ")</td>
                 <td>
                     <select class="form-control select-update-order">
                         <option value="1">Đơn hàng mới</option>
@@ -64,6 +68,15 @@
 </html>
 
 @section Scripts{
+    <script>
+        new DataTable('#detail_order', {
+            layout: {
+                topStart: {
+                    buttons: ['pdf', 'print']
+                }
+            }
+        });
+    </script>
     <script>
         $(document).ready(function () {
             $('.select-update-order').change(function () {
